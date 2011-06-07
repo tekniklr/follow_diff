@@ -1,0 +1,10 @@
+Designed to be run periodically via cron, will output new interesting 
+twitter followers.
+
+Interesting is currently defined as:
+  * someone who has more people following them than people they follow
+  * someone who is following them also follows us
+  
+This script is abandoned in a mostly complete state. I ran into a speed 
+bump involving Net::Twitter not paginating results as advertised and lost 
+interest in working around their bug.
